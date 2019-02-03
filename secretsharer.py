@@ -19,7 +19,6 @@ def split(val, n, k):
 		y = val
 
 		for j in range(1, k):
-			print rval[j-1]
 			degree = j
 			term = rval[j-1]*(x**degree)
 			y = y + term
